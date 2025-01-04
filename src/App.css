@@ -5,3 +5,28 @@
 nav {
   background: rgba(0, 0, 0, 0.477);
 }
+
+.hero {
+  position: relative;
+  min-height: 80vh;
+}
+
+.hero-content {
+  max-width: 450px;
+}
+
+.movie-card-item {
+  background: rgba(255, 255, 255, 0.332);
+  backdrop-filter: blur(2px);
+}
+
+.movie-card-item img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .movie-card-item img {
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
